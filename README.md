@@ -1,8 +1,7 @@
-# React + Vite
+# Shopping Platform App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo holds the source for a demo shopping application that implements core React concepts. This demo is being built week-to-week during my group mentorship sessions for the Hawk cohort of CodeTheDream.
 
-Currently, two official plugins are available:
+The master branch will be kept up to speed with our progress. If you are cloning the repo for the first time or to follow along with the next session, start with the master branch!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+If you are curious about the code that was written on a particular week, check out the branch corresponding to the lesson we covered!
