@@ -5,7 +5,9 @@ on:
         branches: ["master"]
 
 jobs:
-    build:
+    deploy:
+        permissions:
+            contents: write
         runs-on: ubuntu-latest
 
         strategy:
