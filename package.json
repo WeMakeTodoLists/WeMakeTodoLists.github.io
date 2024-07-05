@@ -7,10 +7,10 @@
 		"dev": "vite",
 		"clean": "rm -rf dist",
 		"build": "vite build",
-        "test": "echo 'Not yet implemented!'",
+		"test": "echo 'Not yet implemented!'",
 		"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
-		"deploy": "npm run clean && npm run build && gh-pages -d dist --repo https://github.com/WeMakeTodoLists/WeMakeTodoLists.github.io"
+		"deploy": "npm run clean && npm run build && gh-pages -d dist"
 	},
 	"dependencies": {
 		"react": "^18.2.0",
