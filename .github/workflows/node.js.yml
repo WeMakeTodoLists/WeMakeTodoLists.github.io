@@ -23,6 +23,7 @@ jobs:
             - run: npm ci
             - run: npm test
             - run: npm run clean && npm run build
+            - run: echo '${{ secrets.GITHUB_TOKEN }}'
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v4
               with:
